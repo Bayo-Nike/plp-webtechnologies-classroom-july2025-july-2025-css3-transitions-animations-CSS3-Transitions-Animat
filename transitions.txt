@@ -1,0 +1,30 @@
+
+Transitions usually occur when a change of state occurs.
+
+Transition properties
+==================
+1.transition-property: dectates w/c property to showcase
+2.transition-duration: how long the transition should take
+3.transition-timing-function: speed of the transition
+    a.linear:constant speed
+    b.ease: starts slow, then fast, then ends slow
+    c.ease-in: starts slow
+    d.ease-out: ends slow
+    e.ease-in-out: starts and ends slow
+
+4.transition-delay: delay before the transition starts
+
+
+
+shorthand writing of a property
+transition: property duration timing-function delay;
+
+
+Animation properties
+====================
+1. @keyframes: defines the Animation
+2. animation-name: name of the animation
+3. animation-duration: how long the animation should take
+
+
+shorthand property

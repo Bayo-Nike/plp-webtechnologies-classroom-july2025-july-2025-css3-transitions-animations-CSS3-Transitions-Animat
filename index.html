@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CSS & JavaScript Interactions</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+
+  <header>
+    <h1>CSS3 Transitions, Animations & JavaScript</h1>
+  </header>
+
+  <main>
+
+    <!-- PART 1: CSS ONLY ANIMATIONS -->
+    <section>
+      <h2>Button Hover</h2>
+      <button class="animated-button">Hover Me</button>
+    </section>
+
+    <section>
+      <h2>Slide-In & Fade-In</h2>
+      <div class="slide-in">Slide In</div>
+      <div class="fade-in">Fade In</div>
+    </section>
+
+    <section>
+      <h2>Heartbeat</h2>
+      <div class="heart"></div>
+    </section>
+
+    <!-- PART 2 & 3: JS CONTROL -->
+    <section>
+      <h2>Animated Box via JS</h2>
+      <div class="box" id="animateBox">Animate Me</div>
+      <button onclick="triggerBoxAnimation()">Trigger Animation</button>
+    </section>
+
+    <section>
+      <h2>Card Flip</h2>
+      <div class="card-container" onclick="flipCard(this)">
+        <div class="card" id="card">
+          <div class="front">Front</div>
+          <div class="back">Back</div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Animation Control</h2>
+      <div class="ball" id="ball"></div>
+      <button onclick="toggleBall()">Toggle Ball</button>
+    </section>
+
+  </main>
+
+  <script src="scripts/script.js"></script>
+</body>
+</html>
